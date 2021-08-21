@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <form action="{{ url_for('details')}}" method="post">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="fname" placeholder="firstname">
+
+
+    <label for="email">Email Id :</label>
+    <input type="text" id="emailId" name="emailId" placeholder="Email">
+   
+    <button type="button" class="btn btn-primary" id="donate" style="height: 80px; width: 120px; "
+   onClick="window.location.href='http://127.0.0.1:5000/pay';">DONATE</button>
+  </form>
+</body>
+</html>
